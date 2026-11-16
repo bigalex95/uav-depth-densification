@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[oc]
+dist/
+wheels/
+*.egg-info
+.venv/
+
+# C++ build
+build/
+cmake-build-*/
+compile_commands.json
+
+# Input data and pipeline outputs
+data/
+sfm_output*/
+depth_maps/
+densified*/
+visualize*/
+evaluation/
+reconstruction*.json
+*.zip
+*.7z
+
+# Model weights
+*.pth
+*.safetensors
+*.ckpt
+
+# LaTeX build files (docs/report.pdf is committed)
+docs/*.aux
+docs/*.log
+docs/*.out
+docs/*.toc
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
